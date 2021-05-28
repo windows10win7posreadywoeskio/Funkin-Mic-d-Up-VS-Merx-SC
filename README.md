@@ -36,7 +36,7 @@ Go support the original repository for the game [here](https://github.com/ninjam
 	</tr>
 </table>
 
-<h2>Mod Creators:</h2>
+<h2>Original Mod Creators:</h2>
 
 <table style="span:90%">
 	<tr>
