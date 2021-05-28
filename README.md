@@ -177,3 +177,8 @@ Special thanks to the amazing group of dedicated people that are making the orig
 <p align="center">
 	💖💖
 </p>
+
+<p align="right">
+	Also not to fucking mention
+	there may not be a a HTML5 version due to limitations of Mic'd Up blamo
+</p>
