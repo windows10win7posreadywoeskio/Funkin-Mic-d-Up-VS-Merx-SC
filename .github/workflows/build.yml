@@ -94,12 +94,12 @@ jobs:
       - name: Compile
         run: haxelib run lime build windows
       - name: Archive
-        run: tar -czf bin.tar.gz export/release/windows/bin
+        run: tar -czf bin.zip export/release/windows/bin
       - name: Publish Artifact
         uses: actions/upload-artifact@v2
         with:
           name: windowsBuild
-          path: bin.tar.gz
+          path: bin.zip
 
   buildMac:
     runs-on: macos-latest
@@ -134,9 +134,9 @@ jobs:
       - name: Compile
         run: haxelib run lime build mac 
       - name: Archive
-        run: tar -czf bin.tar.gz export/release/macos/bin
+        run: tar -czf macOS.zip export/release/macos/bin
       - name: Publish Artifact
         uses: actions/upload-artifact@v2
         with:
           name: macBuild
-          path: bin.tar.gz
+          path: macOS.zip
